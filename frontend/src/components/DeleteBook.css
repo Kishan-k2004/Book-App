@@ -1,0 +1,43 @@
+.delete-book-container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 25px;
+    background: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .delete-book-container h2 {
+    text-align: center;
+    color: #dc3545;
+  }
+  
+  .book-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .book-list li {
+    background: #fff;
+    margin: 10px 0;
+    padding: 12px 15px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .book-list button {
+    padding: 6px 12px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .book-list button:hover {
+    background-color: #c82333;
+  }
+  
