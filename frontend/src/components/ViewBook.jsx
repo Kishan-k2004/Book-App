@@ -10,7 +10,7 @@ const ViewBook = () => {
 
   const handleView = async () => {
     try {
-      const res = await axios.get('http://localhost:9000/books');
+      const res = await axios.get('https://book-app-jigo.onrender.com/books');
       setBooks(res.data);
     } catch (err) {
       console.log(err);
